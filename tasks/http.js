@@ -30,7 +30,7 @@ module.exports = function (grunt) {
       grunt.log.ok(response.statusCode);
 
       if (dest) {
-        grunt.file.write(dest, body);
+        grunt.file.write(dest, JSON.stringify(response, null, 2));
       }
 
       done();
