@@ -1,6 +1,6 @@
 # grunt-http
 
-> Sends a HTTP request and deals with the response.
+> Sends an HTTP request and deals with the full response object.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
